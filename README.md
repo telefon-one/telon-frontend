@@ -1,4 +1,4 @@
-# Project Title
+# Project Telon
 
 A brief introduction to the project and its purpose.
 
