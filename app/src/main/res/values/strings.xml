@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">My1stApplication</string>
+    <string name="nav_arrow">nav_arrow</string>
+    <string name="log">Log</string>
+    <string name="menu"> </string>
+    <string name="flag"> </string>
+    <string name="Status_Bar">#Status_Bar</string>
+    <string name="power_button">ON/OFF</string>
+    <string name="server_name_us">Unites States #server</string>
+    <string name="server_name_ru">Russia #server</string>
+    <string name="server_name_th1">Thailand #server 1</string>
+    <string name="server_name_th2">Thailand #server 2</string>
+    <string name="server_name_su">Singapore #server</string>
+    <string name="server_selector">Selected Server</string>
+    <string name="sip_pass">SIP Password</string>
+    <string name="sip_user">SIP Username</string>
+    <string name="sip_server">SIP Server</string>
+    <string name="hint_sip_user">Enter SIP username</string>
+    <string name="hint_sip_addr">Enter SIP server address</string>
+    <string name="hint_sip_pass">Enter SIP password</string>
+    <string name="save_setting">Save Settings</string>
+    
 </resources>

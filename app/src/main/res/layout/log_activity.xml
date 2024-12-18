@@ -1,0 +1,113 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="0dp"
+    android:background="@color/black">
+
+    <View
+        android:id="@+id/container"
+        android:layout_width="355dp"
+        android:layout_height="800dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/container"
+        android:elevation="-1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/log_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/log"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:contentDescription="@string/nav_arrow"
+        android:id="@+id/nav_arrow"
+        android:layout_width="38dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow_icon" />
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="787dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Log Header -->
+                <!-- Group of Mockup SIP Call Logs -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/log_entry_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Timestamp: 2024-12-18 10:45:12 | Call ID: 12345abcdef | Caller: sip:alice@domain.com | Recipient: sip:bob@domain.com | Method: INVITE | Response: 200 OK"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/log_entry_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Duration: 4m 32s | Termination: User Hangup"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/log_entry_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Timestamp: 2024-12-18 11:02:22 | Call ID: 67890ghijk | Caller: sip:bob@domain.com | Recipient: sip:alice@domain.com | Method: INVITE | Response: 180 Ringing"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/log_entry_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Duration: 1m 05s | Termination: Timeout"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/log_entry_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Timestamp: 2024-12-18 11:10:10 | Call ID: 11223lmnop | Caller: sip:alice@domain.com | Recipient: sip:bob@domain.com | Method: INVITE | Response: 503 Service Unavailable"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+
+
+
+            <!-- You can continue adding more log entries inside this LinearLayout -->
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

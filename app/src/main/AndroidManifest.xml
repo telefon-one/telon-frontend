@@ -21,7 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".SettingsActivity">
+
+        </activity>
+        <activity android:name=".LogActivity" >
+
+        </activity>
     </application>
 
 </manifest>
